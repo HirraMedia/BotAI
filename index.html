@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bot SQL Cơ Bản</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Bot AI Hỗ Trợ SQL Server</h1>
+      <p>Hỏi các kiến thức SQL cơ bản như WHERE, JOIN, SELECT, GROUP BY...</p>
+    </header>
+
+    <main class="chat-box">
+      <div id="messages" class="messages">
+        <div class="message bot">
+          <strong>Bot SQL</strong>
+          <p>Xin chào! Bạn có thể hỏi: “WHERE là gì?”, “JOIN là gì?”, “SELECT dùng để làm gì?”</p>
+        </div>
+      </div>
+
+      <form id="chatForm" class="input-area">
+        <input id="userInput" type="text" placeholder="Nhập câu hỏi SQL của bạn..." />
+        <button type="submit">Gửi</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
